@@ -115,6 +115,7 @@ describe('Test student work on helper functions', () => {
       expect(copilotStatus).toHaveTextContent("Co-pilot Bob is ready for launch");
       expect(fuelStatus).toHaveTextContent("Fuel level high enough for launch");
       expect(cargoStatus).toHaveTextContent("Cargo mass too heavy for launch");
+      
    });
 
    test("Launch Checklist when cargo too heavy and fuel too low for launch", () => {
